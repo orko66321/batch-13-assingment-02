@@ -326,6 +326,80 @@ body{
 .time-3{
     bottom: 10px;
 }
+.Meet-the-Host{
+    padding: 7.5rem 12.5rem;
+    background-color: #12051e;
+}   
+
+.Meet-the-Host>h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+   
+    margin-bottom: 2.5rem;
+}
+.alex-kumar-card{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 39px;
+    background-color: #23034da1;
+ 
+}
+.alex-kumar-card:hover{
+    transform: rotateX(5deg) rotateY(5deg) scale(1.10);
+    box-shadow: 20px 20px 40px  #4b06a49d;
+}
+.alex-umar-info>h3{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.alex-umar-info>p{
+    color: rgba(128, 128, 128, 0.663);
+    margin-bottom: 1rem;
+}
+.icons>img{
+    margin-left: 0.5rem;
+}
+
+.footer-content{
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33.75vh;
+    
+
+}
+.footer-logo>h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.footer-logo>h1>.grediyent {
+    background: linear-gradient(90deg, #f700ff, #f04d07);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-content>.sponsors{
+    display: grid;
+    grid-template-columns: repeat(4, 6rem);
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+ }    
+
+.footer-bottom{
+    text-align: center;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.616);
+    background-color: #1a0a2e;
+
+}
 
 
 
