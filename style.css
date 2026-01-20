@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    border: 1px solid greenyellow;
+   
 }
 body{
     color: white;
@@ -369,7 +369,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 33.75vh;
-    
+
 
 }
 .footer-logo>h1{
@@ -446,5 +446,125 @@ body{
     top: 10%;
     
     left: 50%;
+    }
+
+    
+
+.Podcast-section{
+    /* padding: 3.75rem 12.5rem; */
+    background-color: #12051e;
+    text-align: center;
 }
+
+.Podcast-section>h2{
+    font-size: clamp(1.875rem, 2.5vw + 1rem, 3.75rem);
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+.Podcast-section>p{
+    font-size: .5rem;
+    margin-bottom: 2.5rem;
+}
+.podcast-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    justify-content: center;
+    
+}
+.podcast-card{
+    background-color: #1a0a2e;
+    border-radius: 1rem;
+    padding: 1.25rem;
+    width: 200px;
+    text-align: left;
+    box-shadow: 5px 5px 15px rgba(247, 247, 247, 0.3);
+}
+.podcast-cards>.podcast-card>h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #01ff88;
+}
+.podcast-card>p{
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    color: rgba(128, 128, 128, 0.892);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+    .Why-Choose-TechWave{
+    background-color: rgb(33, 8, 66);
+    padding: 7.5rem 0rem;
+    
+    }
+    .layout-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "p p p p p p p p p p p p"
+    "m m m m m m m m m m m m" 
+    "g g g g g g g g g g g g"
+    "e e e e e e e e e e e e"
+    "r r r r r r r r r r r r";
+    gap: 1.875rem;
+    padding-top: 2.5rem;
+    }
+    .layout-container {
+    padding: 3rem 1.25rem;
+    }
+    .featured-Episodes{
+    padding: 7.5rem 0.5rem;
+    }
+    .featured-titel>h2{
+    font-size: 1.5rem;
+    }
+    .featured-cards{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    }
+    .Meet-the-Host{
+    padding: 7.5rem 4rem;
+    text-align: center;
+    }
+    .Meet-the-Host>h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    }
+    .alex-kumar-card{
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+    }
+    .alex-umar-info>h3{
+        font-size: 1rem;
+    }
+    .alex-umar-info>p{
+        font-size: 0.8125rem;
+    }
+    .footer-content>.sponsors{
+    display: grid;
+    grid-template-columns: repeat(2, 6rem);
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 0.25rem;
+ } 
+
 }
