@@ -101,6 +101,16 @@ body{
     border-radius: 1rem;
     font-size: 0.875rem;
     font-weight: 700;
+    transform: translateX(1vw);
+    animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 .banner-img-2>img{
     max-width: 200px;
@@ -137,11 +147,22 @@ body{
     font-size: 1rem;
     font-weight: 600;
     color: white;
+    margin-top: 2rem;
 }
 .Subscribe{
     background-color: transparent;
     border: 1px solid #01ff88;
     color: #01ff88;
+    transform: translateX(1vw);
+    animation: alternate-reverse bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 .Subscribe:hover{
     background-color: #01ff88;
